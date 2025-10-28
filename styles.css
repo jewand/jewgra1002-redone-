@@ -1,0 +1,67 @@
+/* styles.css - Created by Jewand Graham */
+
+/* General body styles */
+body {
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec); /* subtle gradient background */
+    font-family: Arial, Helvetica, sans-serif; /* readable web-safe font */
+    margin: 0;
+    padding: 0;
+    color: #333; /* dark gray text for readability */
+}
+
+/* Header styling */
+header {
+    background-color: #2c3e50; /* dark blue-gray */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none; /* remove bullets */
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex; /* horizontal layout */
+    justify-content: center;
+    gap: 30px; /* spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1; /* light text */
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    background-color: #34495e; /* darker background */
+    color: #1abc9c; /* bright teal text */
+}
+
+/* Main sections */
+main section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px 25px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+    border: 1px solid #ddd;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e50; /* same as header for contrast */
+    color: #bdc3c7; /* lighter gray */
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
